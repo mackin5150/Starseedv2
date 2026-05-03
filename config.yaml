@@ -1,0 +1,10 @@
+# Gemstone Expert Settings
+model_settings:
+  base_model: "yolo11n-seg.pt"
+  energy_level: 1.0  # 1.0 = full energy, 0.1 = tired/high entropy
+  pruning_rate: 0.05 # 5% of weak connections pruned during sleep
+
+paths:
+  data_dir: "./data"
+  model_dir: "./models"
+
